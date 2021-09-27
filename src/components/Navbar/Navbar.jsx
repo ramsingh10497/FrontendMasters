@@ -4,40 +4,45 @@ import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
-import IconButton from '@mui/material/IconButton';
-import makeStyles from '@mui/styles/makeStyles';
-import { styled } from '@mui/material/styles';
-// import MenuIcon from '@mui/icons-material/Menu';
+// import IconButton from '@mui/material/IconButton';
+import { styled } from '@mui/system';
+import styles from './Navbar.module.css'
 
-const useStyles = makeStyles((theme) => ({
-  root: {
-    backgroundColor: theme.palette.primary.main,
-  },
-}));
+
+const MyComponent = styled('button')({
+  color: 'white',
+    backgroundColor: 'rgb(193,58,42)',
+  padding: '10px 20px',
+  borderRadius: "40px",
+  marginLeft: '5px',
+  border: 'none',
+  textAlign: 'center',
+  textDecoration: 'none',
+  lineHeight: '1.5em',
+  fontFamily: 'sans-serif',
+  fontSize: '16px',
+  cursor: 'pointer',
+ 
+});
+
 
 const Navbar = () => {
-    const classes = useStyles();
+    // const classes = useStyles();
     return (
-        <Box sx={{ flexGrow: 1 }} className={classes.root}>
-      <AppBar position="static">
+        <Box sx={{ flexGrow: 1 }} >
+      <AppBar position="static" style={{backgroundColor: 'rgb(63,21,12)', padding:"5px 30px"}}>
         <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="menu"
-            sx={{ mr: 2 }}
-          >
-            {/* <MenuIcon /> */}
-          </IconButton>
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            News
-          </Typography>
-            <Box>
+        
+            <div style={{ flexGrow: 1}}>
+              <Box className={styles.FMlogo}>
+          </Box>
+          </div>
+            <Box className={styles.front}>
+                        <Button color="inherit">Courses</Button>
+                        <Button color="inherit">Learn</Button>
+                        <Button color="inherit">Prices</Button>
                         <Button color="inherit">Login</Button>
-                        <Button color="inherit">Login</Button>
-                        <Button color="inherit">Login</Button>
-                        <Button color="inherit">Login</Button>
+                        <MyComponent color="inherit">Join Now</MyComponent>
             </Box>
         </Toolbar>
       </AppBar>
