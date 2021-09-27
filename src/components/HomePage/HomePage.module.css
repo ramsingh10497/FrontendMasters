@@ -11,6 +11,29 @@
 .fm1 {
   height: 40vw;
   width: 100vw;
-  position: absolute;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  left: 0;
+  top: 0;
+  z-index: 2;
+  /* position: absolute; */
   background-image: url(https://static.frontendmasters.com/assets/fm/js/static/bg1.8d7f86e8bd.jpg);
+}
+.fm2 {
+  /* padding-left: 30px; */
+  color: white;
+  font-family: inherit;
+  /* padding-right: 30px; */
+  margin-left: auto;
+  margin-right: auto;
+  /* padding-bottom: 40px;
+  padding-top: 40px; */
+  width: 60%;
+}
+.fm2 h1 {
+  font-size: 36px;
+  line-height: 1.2;
+  text-shadow: 0 0 20px rgb(0 0 0 / 75%);
+  font-weight: 600;
 }

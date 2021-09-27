@@ -7,7 +7,13 @@ const HomePage = () => {
     return (
         <Box className={styles.root}>
             <Card className={styles.fm1}>
-                HomePage
+                <Box className={styles.fm2} >
+                    <h1 >
+                        <strong style={{fontSize:'160%'}}>Advance Your Skill</strong><br/>
+                        <span style={{ marginLeft: '60px' }}>With in-Depth,Modern</span><br/>
+                        <span>Front-end Engineering Courses</span>
+                    </h1>
+                </Box>
             </Card>
         </Box>
     )
