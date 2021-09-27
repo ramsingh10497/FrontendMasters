@@ -1,0 +1,16 @@
+.root {
+  font-family: sans-serif;
+  color: #e6e6e6;
+  font-size: 16px;
+  line-height: 1.5em;
+  height: 1000px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.fm1 {
+  height: 40vw;
+  width: 100vw;
+  position: absolute;
+  background-image: url(https://static.frontendmasters.com/assets/fm/js/static/bg1.8d7f86e8bd.jpg);
+}
