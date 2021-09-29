@@ -1,6 +1,7 @@
 import { Card, Container } from '@mui/material';
 import { Box } from '@mui/system'
 import React from 'react';
+import CardItem from './CardItem';
 import styles from './CardsComponent.module.css'
 
 const CardsComponent = () => {
@@ -23,27 +24,9 @@ const CardsComponent = () => {
                     component='div'
                     sx={{ display: 'flex',justifyContent:'space-between',alignItems: 'center'}}
                 >
-                    <Card>
-
-                    </Card>
-                    <Card>
+                    <CardItem
                         
-                    </Card>
-                    <Card>
-                        
-                    </Card>
-                    <Card>
-                        
-                    </Card>
-                    <Card>
-                        
-                    </Card>
-                    <Card>
-                        
-                    </Card>
-                    <Card>
-                        
-                    </Card>
+                    />
                 </Box>
             </Box>
         </Container>

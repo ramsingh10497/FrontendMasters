@@ -1,0 +1,40 @@
+{
+  "profile": [
+    {
+    "name": "Kevin Powell",
+    "twitter": "@KevinJPowell",
+    "paragraph":"Super talented educators and quality content.",
+    "imageurl": "https://pbs.twimg.com/profile_images/1441440444429357056/63gb2BFR_reasonably_small.jpg"
+  },
+  {
+    "name": "AJ Thompson",
+    "twitter": "@hashtagdad817",
+    "paragraph":"always delivers great courses. I’ve taken all of @scotups. He teaches in a way that feels like a conversation amongst friends.",
+    "imageurl":"https://pbs.twimg.com/profile_images/1236097570637844486/YNWHjUtv_reasonably_small.jpg"
+  },
+  {
+    "name": "Dave Halewood",
+    "twitter": "@Dave_Coding",
+    "paragraph":"@kieranmv95 @FrontendMasters Yes definitely, I’ve had membership for a couple of years, really good content given by top instructors.",
+    "imageurl": "https://pbs.twimg.com/profile_images/1057964722585305088/jZJUDPhj_reasonably_small.jpg"
+  },
+  {
+    "name": "Andrew Poe",
+    "twitter": "@andrewtpoe",
+    "paragraph":"@FrontendMasters is dollar for dollar the best money I've spent on continued education as a developer. So much A+ content.",
+    "imageurl": "https://pbs.twimg.com/profile_images/599651293423128578/-7h5hALt_reasonably_small.png"
+  },
+  {
+    "name": "PurpleDoll lvl0",
+    "twitter": "@purpledoll001",
+    "paragraph":"What an incredible XSTATE course you have on @FrontendMasters @DavidKPiano. Amazing tool and amazing way to reach our brains :D",
+    "imageurl": "https://pbs.twimg.com/profile_images/1216765400534409216/iKnNkFof_reasonably_small.jpg"
+  },
+  {
+    "name": "Sarah Drasner",
+    "twitter": "@sarah_edo",
+    "paragraph":"I've really been enjoying @scotups courses, he's got everything from Next.js to GraphQL, to API design. He's a great instructor, does an amazing job walking through things and speaking to community and preferences too, hard to do! https://t.co/KaJnQw3HFo",
+    "imageurl": "https://pbs.twimg.com/profile_images/1281071936605323266/wc1KRZLK_reasonably_small.jpg"
+  }
+  ]
+}
