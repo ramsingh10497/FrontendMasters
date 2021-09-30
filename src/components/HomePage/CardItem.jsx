@@ -18,7 +18,7 @@ const CardItem = ({ ele }) => {
                     <Box component="button" className={styles.btn}>
                         <Icon color="primary.main">
                             <TwitterIcon style={{ color: '#1976d2' }} />
-                            <div></div>
+                         
                         </Icon>
                     </Box>
                 </Box>
