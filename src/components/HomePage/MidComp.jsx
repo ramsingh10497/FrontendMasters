@@ -9,7 +9,7 @@ const MidComp = () => {
             <Box component="div" className={styles.box}>
                 <h1>Join Now and Learn Straight from the Experts Who Shape the Modern Web</h1>
                 <Box>
-                    <Button className={styles.btn} variant="contained" >Join Now</Button>
+                    <button className={styles.btn}  >Join Now</button>
                 </Box>
             </Box>
         </Container >

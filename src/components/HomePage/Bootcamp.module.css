@@ -1,0 +1,17 @@
+.container {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  background-image: linear-gradient(
+      rgba(22, 1, 1, 0.849),
+      rgba(10, 10, 10, 0.952)
+    ),
+    url(https://static.frontendmasters.com/assets/fm/js/static/bc-ad-bg.5d061b025d.png);
+  background-size: 100%;
+  background-repeat: cover;
+  max-width: 1600px;
+  height: 300px;
+  padding: 30px 5px;
+}
+.box {
+}
