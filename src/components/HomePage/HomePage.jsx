@@ -1,6 +1,7 @@
 import { Button, Card } from '@mui/material';
 import { Box } from '@mui/system'
 import React from 'react';
+import Footer from '../Footer/Footer';
 import Bootcamp from './Bootcamp';
 import CardsComponent from './CardsComponent';
 import styles from './HomePage.module.css'
@@ -60,6 +61,7 @@ const HomePage = () => {
             <CardsComponent />
             <MidComp className={styles.mid} />
             <Bootcamp />
+            <Footer />
         </Box>
     )
 }

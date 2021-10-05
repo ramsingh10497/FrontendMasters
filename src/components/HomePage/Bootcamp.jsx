@@ -7,7 +7,13 @@ const Bootcamp = () => {
     return (
         <Container className={styles.container}>
             <Box component="div" className={styles.box}>
-                Hello
+                <img src="./images/bootcamp.png" alt="bootcamp" />
+                <p>Looking to take your first steps in Web Development?
+                <br />
+                    Try the free Frontend Masters Bootcamp!</p>
+                <p>
+                    <a href="https://frontendmasters.com/bootcamp/">More Info</a>
+                </p>
             </Box>
         </Container>
     )

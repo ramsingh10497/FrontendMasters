@@ -1,4 +1,5 @@
 .container {
+  color: white;
   margin: 0px;
   padding: 0px;
   text-align: center;
@@ -14,4 +15,12 @@
   padding: 30px 5px;
 }
 .box {
+}
+.box img {
+  width: 240px;
+  height: auto;
+}
+.box a {
+  color: #dd625e;
+  cursor: pointer;
 }
