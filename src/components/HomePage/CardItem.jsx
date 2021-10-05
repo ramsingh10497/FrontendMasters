@@ -34,7 +34,7 @@ const CardItem = ({ ele }) => {
                             color: '#757575'
                          }}
                 >
-                    <p>2:50pm Oct 21, 2020 </p>
+                    <p>2:50pm Oct 21, 2020</p>
                 </Box>
 
             </Card>

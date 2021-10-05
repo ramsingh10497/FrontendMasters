@@ -3,6 +3,7 @@ import { Box } from '@mui/system'
 import React from 'react';
 import CardsComponent from './CardsComponent';
 import styles from './HomePage.module.css'
+import MidComp from './MidComp';
 
 const HomePage = () => {
     return (
@@ -56,6 +57,7 @@ const HomePage = () => {
                 </Box>
             </Card>
             <CardsComponent />
+            <MidComp className={styles.mid} />
         </Box>
     )
 }

@@ -1,0 +1,32 @@
+.container {
+  min-height: 600px;
+  color: white;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)),
+    url("https://static.frontendmasters.com/assets/fm/js/static/bg2.c89a0cad3a.jpg");
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-size: cover;
+}
+.box {
+  width: 40%;
+  height: 250px;
+  font-family: sans-serif;
+}
+.box h1 {
+  line-height: 1.5;
+  font-weight: 600;
+  padding-bottom: 20px;
+}
+.btn {
+  font-size: 30px;
+  font-family: sans-serif;
+  text-transform: none !important;
+  padding: 10px 80px;
+  background-color: rgb(231, 105, 54);
+  border-radius: 40px;
+}
+.btn:hover {
+  background-color: rgb(241, 97, 40);
+}
