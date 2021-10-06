@@ -13,9 +13,12 @@ const Footer = () => {
                 <Box className={styles.front} component="div">
                         <Button color="inherit">Courses</Button>
                         <Button color="inherit">Learn</Button>
-                        <Button color="inherit">Prices</Button>
-                        <Button color="inherit">Login</Button>
-                        <Button></Button>
+                        <Button color="inherit">Teachers</Button>
+                        <Button color="inherit">Guides</Button>
+                        <Button color="inherit">Pricing</Button>
+                    <Button color="inherit">Login</Button>
+                    <Button color="inherit">Join Now</Button>
+                    <Button color="inherit">FAQ</Button>
                 </Box>
             </Box>
         </div>
